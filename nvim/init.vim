@@ -76,6 +76,7 @@ endif
 call plug#begin(data_dir . '/plugins')
 
 source ~/.config/nvim/plugins/airline.vim
+source ~/.config/nvim/plugins/coc.vim
 source ~/.config/nvim/plugins/dispatch.vim
 source ~/.config/nvim/plugins/fzf.vim
 source ~/.config/nvim/plugins/nerdtree.vim

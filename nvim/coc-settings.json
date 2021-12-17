@@ -1,0 +1,7 @@
+{
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "coc.preferences.formatOnType": true,
+    "git.enableGutters": true,
+    "tailwindCSS.validate": true,
+    "prettier.requireConfig": true
+}
