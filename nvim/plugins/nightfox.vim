@@ -1,3 +1,4 @@
+" https://github.com/EdenEast/nightfox.nvim
 Plug 'EdenEast/nightfox.nvim'
 
 augroup NightFoxOverrides
