@@ -15,6 +15,9 @@ let g:coc_global_extensions = [
     \ 'coc-svg',
     \ 'https://github.com/rodrigore/coc-tailwind-intellisense',
     \ 'coc-tsserver',
+    \ 'coc-omnisharp',
+    \ 'coc-svelte',
+    \ 'coc-docker'
 \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.

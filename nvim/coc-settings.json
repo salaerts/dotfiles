@@ -3,5 +3,6 @@
     "coc.preferences.formatOnType": true,
     "git.enableGutters": true,
     "tailwindCSS.validate": true,
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
+    "svelte.enable-ts-plugin": true
 }

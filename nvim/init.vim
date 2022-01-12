@@ -42,6 +42,10 @@ set encoding=utf-8
 set splitbelow
 set splitright
 
+if (has("termguicolors"))
+ set termguicolors
+endif
+
 "--------------------------------------------------------------------------
 " Key maps
 "--------------------------------------------------------------------------
@@ -61,6 +65,12 @@ vnoremap > >gv
 vnoremap y myy`y
 vnoremap Y myY`y
 
+" Use ctrl-[hjkl] to select the active split
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
+
 
 "--------------------------------------------------------------------------
 " Plugins
@@ -75,11 +85,15 @@ endif
 
 call plug#begin(data_dir . '/plugins')
 
-source ~/.config/nvim/plugins/airline.vim
+source ~/.config/nvim/plugins/lualine.vim
 source ~/.config/nvim/plugins/coc.vim
 source ~/.config/nvim/plugins/dispatch.vim
 source ~/.config/nvim/plugins/fzf.vim
 source ~/.config/nvim/plugins/nerdtree.vim
+source ~/.config/nvim/plugins/polyglot.vim
+source ~/.config/nvim/plugins/svelte.vim
+source ~/.config/nvim/plugins/nightfox.vim
 
 call plug#end()
 doautocmd User PlugLoaded
+
