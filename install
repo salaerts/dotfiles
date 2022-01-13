@@ -13,8 +13,6 @@ cd "${BASEDIR}"
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
-"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
-
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Running MacOS setup"
     sh "${BASEDIR}/${SCRIPT_DIR}/set-macos-defaults.sh"
@@ -22,3 +20,5 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Installing Fonts"
     sh "${BASEDIR}/${SCRIPT_DIR}/install-fonts-macos.sh"
 fi
+
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
