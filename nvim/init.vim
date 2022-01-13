@@ -85,14 +85,15 @@ endif
 
 call plug#begin(data_dir . '/plugins')
 
-source ~/.config/nvim/plugins/lualine.vim
 source ~/.config/nvim/plugins/coc.vim
 source ~/.config/nvim/plugins/dispatch.vim
 source ~/.config/nvim/plugins/fzf.vim
+source ~/.config/nvim/plugins/lualine.vim
 source ~/.config/nvim/plugins/nerdtree.vim
-source ~/.config/nvim/plugins/polyglot.vim
-source ~/.config/nvim/plugins/svelte.vim
 source ~/.config/nvim/plugins/nightfox.vim
+source ~/.config/nvim/plugins/polyglot.vim
+source ~/.config/nvim/plugins/prettier.vim
+source ~/.config/nvim/plugins/svelte.vim
 
 call plug#end()
 doautocmd User PlugLoaded
