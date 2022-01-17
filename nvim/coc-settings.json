@@ -5,6 +5,7 @@
     "tailwindCSS.validate": true,
     "prettier.requireConfig": true,
     "svelte.enable-ts-plugin": true,
+    "omnisharp.trace.server": "information",
     "languageserver": {
         "graphql": {
             "command": "graphql-lsp",
