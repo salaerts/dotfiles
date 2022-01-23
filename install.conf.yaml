@@ -7,9 +7,10 @@
 ]
 
 - link:
+    ~/.gitconfig:
+      path: git/.gitconfig
     ~/.zshrc: 
       path: zsh/.zshrc    
-      force: true
     ~/.config/kitty: 
       path: kitty
     ~/.config/nvim: 
