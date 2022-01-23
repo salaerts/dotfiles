@@ -7,8 +7,13 @@
 ]
 
 - link:
-    ~/.config/kitty: kitty
-    ~/.config/nvim: nvim
+    ~/.zshrc: 
+      path: zsh/.zshrc    
+      force: true
+    ~/.config/kitty: 
+      path: kitty
+    ~/.config/nvim: 
+      path: nvim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]  
