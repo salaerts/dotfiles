@@ -133,3 +133,9 @@ eval "$(jenv init -)"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 export RADAHR_TEST_CONNECTIONSTRING="Server=localhost,1433;Database=radahrtest;User Id=SA;Password=myP@ss12345"
+
+# Set the default branch name for the git stat alias
+export REVIEW_BASE=main
+
+# Import fzf hooks
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

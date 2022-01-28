@@ -9,6 +9,8 @@
 - link:
     ~/.gitconfig:
       path: git/.gitconfig
+    ~/.fzf.zsh: 
+      path: zsh/.fzf.zsh
     ~/.zshrc: 
       path: zsh/.zshrc    
     ~/.config/kitty: 
