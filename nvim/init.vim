@@ -50,6 +50,12 @@ endif
 " Key maps
 "--------------------------------------------------------------------------
 
+" disable the arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 "let mapleader = "\<space>"
 
 nmap <leader>ve :edit ~/.config/nvim/init.vim<cr>
@@ -88,6 +94,9 @@ call plug#begin(data_dir . '/plugins')
 source ~/.config/nvim/plugins/coc.vim
 source ~/.config/nvim/plugins/dispatch.vim
 source ~/.config/nvim/plugins/fzf.vim
+source ~/.config/nvim/plugins/git.vim
+source ~/.config/nvim/plugins/graphql.vim
+source ~/.config/nvim/plugins/javascript.vim
 source ~/.config/nvim/plugins/lualine.vim
 source ~/.config/nvim/plugins/nerdtree.vim
 source ~/.config/nvim/plugins/nightfox.vim
