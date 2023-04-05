@@ -7,6 +7,8 @@
 ]
 
 - link:
+    ~/.iex.exs:
+      path: iex/.iex.exs
     ~/.gitconfig:
       path: git/.gitconfig
     ~/.fzf.zsh: 
