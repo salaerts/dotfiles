@@ -78,3 +78,6 @@
 
 [init]
 	defaultBranch = main
+[user]
+	name = Stefan Alaerts
+	email = stefan.alaerts@gmail.com
