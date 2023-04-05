@@ -142,3 +142,8 @@ export REVIEW_BASE=main
 export FZF_DEFAULT_OPS="--extended"
 export FZF_DEFAULT_COMMAND="rg --files --hidden -i -g !node_modules/ -g !.git/"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+eval "$(pyenv init --path)"
+
+# Add python to PATH
+export PATH="${HOME}/.pyenv/shims:${PATH}"
