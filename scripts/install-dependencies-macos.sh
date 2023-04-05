@@ -6,6 +6,10 @@ brew install nmap
 brew install tmux
 brew install neovim
 
+# Install the Git credential manager
+brew tap microsoft/git
+brew install --cask git-credential-manager-core
+
 curl https://get.volta.sh | bash
 ~/.volta/bin/volta install node
 
