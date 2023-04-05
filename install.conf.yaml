@@ -13,10 +13,12 @@
       path: git/.gitconfig
     ~/.fzf.zsh: 
       path: zsh/.fzf.zsh
+      force: true
     ~/.zshrc: 
       path: zsh/.zshrc    
     ~/.config/kitty: 
       path: kitty
+      force: true
     ~/.config/nvim: 
       path: nvim
 
