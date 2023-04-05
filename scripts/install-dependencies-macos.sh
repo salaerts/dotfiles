@@ -6,7 +6,7 @@ brew install nmap
 brew install tmux
 
 curl https://get.volta.sh | bash
-volta install node
+~/.volta/bin/volta install node
 
 npm i -g graphql-language-service-cli
 
