@@ -4,6 +4,7 @@ $(brew --prefix)/opt/fzf/install
 brew install ripgrep
 brew install nmap
 brew install tmux
+brew install neovim
 
 curl https://get.volta.sh | bash
 ~/.volta/bin/volta install node
