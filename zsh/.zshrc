@@ -10,7 +10,7 @@
 ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/stefan/.oh-my-zsh"
+export ZSH="/Users/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -100,10 +100,10 @@ source $ZSH/oh-my-zsh.sh
 export DOTNET_CLI_TELEMETRY_OPTOUT=true
 
 # Add dotnet tools to PATH
-export PATH="$PATH:/Users/stefan/.dotnet/tools"
+export PATH="$PATH:/Users/$USER/.dotnet/tools"
 
 # Add dapr tools to PATH
-export PATH=$PATH:/Users/stefan/.dapr/bin
+export PATH=$PATH:/Users/$USER/.dapr/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
